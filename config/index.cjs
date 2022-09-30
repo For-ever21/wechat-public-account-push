@@ -67,7 +67,7 @@ const USER_CONFIG = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o6vp-6ahSXcyvVMbixNLfl-MUN6o',
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: '6cMGcRYjgKSNbu1_EkSmbUpUpKh7dhMhWKqHGSucl4M',
+      useTemplateId: 'wdVS02jLADyz23S-Onf15cpvvZKk_mnaoAjXANLL2Jo',
       // 所在省份
       province: '上海',
       // 所在城市
@@ -82,14 +82,14 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '老婆', year: '1999', date: '01-15',
+          type: '*生日', name: '陈老板', year: '1999', date: '01-15',
         },
         {
           type: '节日', name: '恋爱纪念日', year: '2022', date: '02-26',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '*生日', name: '邓振华', year: '1994', date: '12-11',
+          type: '*生日', name: '小邓同志', year: '1994', date: '12-11',
         },
         {
           type: '*节日', name: '七夕', year: '2021', date: '07-07',
@@ -165,48 +165,7 @@ const USER_CONFIG = {
           ]
         }
       },
-    },
-    {
-      name: '老婆1',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
-      name: '老婆2',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
-    },
-    {
-      name: '老婆3',
-      id: '',
-      useTemplateId: '',
-      province: '',
-      city: '',
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: 'https://wangxinleo.cn',
-      festivals: [],
-      customizedDateList: [],
-      courseSchedule: null
     }
-    // 你可以不断按格式往下增加
-    // ...
   ],
 
   /**
